@@ -14,7 +14,7 @@ void Create(int* a, const int size, const int Low, const int High) {
 void Print(int* a, const int size) {
 	cout << endl;
 	for (int i = 0; i < size; i++) {
-		cout << "[" << setw(2) << i << " ] = " << setw(4) << a[i] << endl;  // виводить в стовпчик, оскільки функція рахує індекси, а в ряді їх легше бачити.
+		cout << "[" << setw(2) << i << " ] = " << setw(4) << a[i] << endl;  // виводить в стовпчик, оскільки функція рахує індекси, а в стовпі їх легше бачити.
 	}
 	cout << endl;
 }
